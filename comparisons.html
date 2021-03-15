@@ -1,0 +1,1037 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Implementation comparisons</title>
+</head>
+
+<body>
+    <div class="container">
+        <a name="top"></a>
+        <h2 class="h2">Contents</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#ZDT1">ZDT1</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#ZDT2">ZDT2</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#ZDT3">ZDT3</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#ZDT4">ZDT4</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#ZDT6">ZDT6</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#IHR1">IHR1</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#IHR2">IHR2</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#IHR3">IHR3</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#IHR4">IHR4</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#IHR6">IHR6</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#ELLI1">ELLI1</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#ELLI2">ELLI2</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#CIGTAB1">CIGTAB1</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#CIGTAB2">CIGTAB2</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#DTLZ1">DTLZ1</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#DTLZ2">DTLZ2</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#DTLZ3">DTLZ3</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#DTLZ4">DTLZ4</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#DTLZ5">DTLZ5</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#DTLZ6">DTLZ6</a>
+            </li>
+            
+            <li class="list-group-item">
+                <a href="#DTLZ7">DTLZ7</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="container">
+        <a name="ZDT1"></a>
+        <h3 class="h3">ZDT1</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/ZDT1.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/ZDT1.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="ZDT2"></a>
+        <h3 class="h3">ZDT2</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/ZDT2.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/ZDT2.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="ZDT3"></a>
+        <h3 class="h3">ZDT3</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/ZDT3.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT3.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/ZDT3.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT3-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT3.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT3-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT3-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT3.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT3-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="ZDT4"></a>
+        <h3 class="h3">ZDT4</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/ZDT4.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT4.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/ZDT4.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT4-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT4.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT4-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT4-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT4.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT4-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="ZDT6"></a>
+        <h3 class="h3">ZDT6</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/ZDT6.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT6.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/ZDT6.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT6-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT6.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT6-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ZDT6-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ZDT6.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ZDT6-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="IHR1"></a>
+        <h3 class="h3">IHR1</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/IHR1.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/IHR1.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="IHR2"></a>
+        <h3 class="h3">IHR2</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/IHR2.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/IHR2.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="IHR3"></a>
+        <h3 class="h3">IHR3</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/IHR3.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR3.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/IHR3.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR3-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR3.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR3-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR3-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR3.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR3-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="IHR4"></a>
+        <h3 class="h3">IHR4</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/IHR4.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR4.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/IHR4.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR4-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR4.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR4-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR4-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR4.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR4-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="IHR6"></a>
+        <h3 class="h3">IHR6</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/IHR6.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR6.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/IHR6.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR6-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR6.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR6-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/IHR6-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/IHR6.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/IHR6-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="ELLI1"></a>
+        <h3 class="h3">ELLI1</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/ELLI1.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ELLI1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/ELLI1.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ELLI1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ELLI1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ELLI1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ELLI1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ELLI1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ELLI1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="ELLI2"></a>
+        <h3 class="h3">ELLI2</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/ELLI2.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ELLI2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/ELLI2.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ELLI2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ELLI2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ELLI2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/ELLI2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/ELLI2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/ELLI2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="CIGTAB1"></a>
+        <h3 class="h3">CIGTAB1</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/CIGTAB1.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/CIGTAB1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/CIGTAB1.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/CIGTAB1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/CIGTAB1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/CIGTAB1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/CIGTAB1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/CIGTAB1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/CIGTAB1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="CIGTAB2"></a>
+        <h3 class="h3">CIGTAB2</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/CIGTAB2.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/CIGTAB2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/CIGTAB2.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/CIGTAB2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/CIGTAB2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/CIGTAB2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/CIGTAB2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/CIGTAB2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/CIGTAB2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="DTLZ1"></a>
+        <h3 class="h3">DTLZ1</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/DTLZ1.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/DTLZ1.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ1-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ1.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ1-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="DTLZ2"></a>
+        <h3 class="h3">DTLZ2</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/DTLZ2.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/DTLZ2.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ2-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ2.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ2-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="DTLZ3"></a>
+        <h3 class="h3">DTLZ3</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/DTLZ3.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ3.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/DTLZ3.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ3-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ3.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ3-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ3-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ3.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ3-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="DTLZ4"></a>
+        <h3 class="h3">DTLZ4</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/DTLZ4.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ4.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/DTLZ4.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ4-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ4.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ4-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ4-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ4.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ4-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="DTLZ5"></a>
+        <h3 class="h3">DTLZ5</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/DTLZ5.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ5.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/DTLZ5.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ5-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ5.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ5-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ5-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ5.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ5-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="DTLZ6"></a>
+        <h3 class="h3">DTLZ6</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/DTLZ6.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ6.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/DTLZ6.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ6-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ6.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ6-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ6-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ6.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ6-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+        <a name="DTLZ7"></a>
+        <h3 class="h3">DTLZ7</h3>
+        <a href="#top">Back to top</a>
+        <h4 class="h4">HVI</h4>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/hypervolume/anguilla-v019/DTLZ7.png" class="img-fluid" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ7.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/hypervolume/shark-patched-v1/DTLZ7.png" class="img-fluid" />
+            </div>
+        </div>
+        <h4 class="h4">Population plots</h4>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-I</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ7-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ7.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ7-(100+100)-MO-CMA-ES-I.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        <h5 class="h5">(100+100)-MO-CMA-ES-P</h5>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="./plots/fronts/anguilla-v019/DTLZ7-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+            <!--<div class="col">
+                <img src="./plots/hypervolume/shark-patched-v0/DTLZ7.png" class="img-fluid" />
+            </div>-->
+            <div class="col">
+                <img src="./plots/fronts/shark-patched-v1/DTLZ7-(100+100)-MO-CMA-ES-P.png" class="img-fluid" style="width: 424px;" />
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
