@@ -13,110 +13,189 @@
 
 <body>
     <div class="container">
-        <h1 class="h1">HVI evolution</h1>
-        <p>
-            In this page we plot the HVI evolution of several implementations running on various benchmark functions.
-            We omitted ELL1, ELLI2, CIGTAB1, CIGTAB2 since in Anguilla (v0.0.18) and Shark (modified 4.1) we changed the
-            parameters that affect the conditioning.
-        </p>
+        <h1 class="h1">MO-CMA-ES Implementations Comparison</h1>
         <h2 class="h2">Contents</h2>
-        <ul class="list-group">
-            
-            <li class="list-group-item">
-                <a href="#ZDT1">ZDT1</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#ZDT2">ZDT2</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#ZDT3">ZDT3</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#ZDT4">ZDT4</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#ZDT6">ZDT6</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#IHR1">IHR1</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#IHR2">IHR2</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#IHR3">IHR3</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#IHR4">IHR4</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#IHR6">IHR6</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#ELLI1">ELLI1</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#ELLI2">ELLI2</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#CIGTAB1">CIGTAB1</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#CIGTAB2">CIGTAB2</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#DTLZ1">DTLZ1</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#DTLZ2">DTLZ2</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#DTLZ3">DTLZ3</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#DTLZ4">DTLZ4</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#DTLZ5">DTLZ5</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#DTLZ6">DTLZ6</a>
-            </li>
-            
-            <li class="list-group-item">
-                <a href="#DTLZ7">DTLZ7</a>
-            </li>
-            
-        </ul>
+        <div class="row">
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#ZDT1">ZDT1</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#ZDT2">ZDT2</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#ZDT3">ZDT3</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#ZDT4">ZDT4</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#ZDT6">ZDT6</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#IHR1">IHR1</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#IHR2">IHR2</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#IHR3">IHR3</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#IHR4">IHR4</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#IHR6">IHR6</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#ELLI1">ELLI1</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#ELLI2">ELLI2</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#CIGTAB1">CIGTAB1</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#CIGTAB2">CIGTAB2</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#DTLZ1">DTLZ1</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#DTLZ2">DTLZ2</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#DTLZ3">DTLZ3</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#DTLZ4">DTLZ4</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#DTLZ5">DTLZ5</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#DTLZ6">DTLZ6</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4 mb-2">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <a href="#DTLZ7">DTLZ7</a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
     </div>
     <div class="container">
         <h2 class="h2">Plots</h2>
         <h3>Symbology</h3>
-        <p>
-            (100+1)-MO-CMA-ES-I: Steady-state, MOCMA with individual-based notion of success
-            <br />(100+100)-MO-CMA-ES-I: MOCMA with individual-based notion of success
-            <br />(100+1)-MO-CMA-ES-P: Steady-state MOCMA with population-based notion of success
-            <br />(100+100)-MO-CMA-ES-P: MOCMA with population-based notion of success
-        </p>
+        <ul>
+            <li>(100+1)-MO-CMA-ES-I: Steady-state, MOCMA with individual-based notion of success</li>
+            <li>(100+100)-MO-CMA-ES-I: MOCMA with individual-based notion of success</li>
+            <li>(100+1)-MO-CMA-ES-P: Steady-state MOCMA with population-based notion of success</li>
+            <li>(100+100)-MO-CMA-ES-P: MOCMA with population-based notion of success</li>
+        </ul>
         
         <a name="ZDT1"></a>
         <h3 class="h3">ZDT1</h3>
